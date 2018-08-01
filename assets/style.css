@@ -148,6 +148,10 @@ ul.menu-list .slogan{
   flex: 3;
 }
 
+br.space{
+  line-height: 350%;
+}
+
 /* ul.menu-list .slogan span{
   background-color: rgba(0,0,0,.7);
   line-height: 25px;
@@ -160,6 +164,11 @@ ul.topics{
 
 p.tag{
   margin-top: 20px;
+}
+
+h3.separate{
+  border-top: 2px solid rgba(0,0,0,.7);
+  padding-top: 40px;
 }
 
 
