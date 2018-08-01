@@ -1,0 +1,137 @@
+*{
+  box-sizing: content-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+*, ::after, ::before {
+  box-sizing: content-box;
+}
+
+html, body{
+  max-height: 100vh;
+}
+
+body.columns{
+  margin-top: 0px;
+}
+
+.column{
+  max-height: 100vh;
+  overflow-y: auto;
+  min-height: 0px;
+}
+
+section.contentContainer{
+  padding-top: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 50px;
+}
+
+.index{
+  box-shadow: 4px -1px 10px #ececec;
+}
+
+.index nav ul{
+  font-size: 30px;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.contentContainer h2{
+  border-bottom: 1px solid black;
+}
+
+.contentContainer a{
+  font-size: 30px;
+  color: black;
+}
+
+.contentContainer a:hover{
+  color: #ffaf24
+}
+
+.accueilSlogan{
+  margin-top: 20px;
+}
+
+.containerVideo {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  margin-top: 30px;
+}
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.title{
+  margin-top: 30px;
+}
+
+figure.image{
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+aside.menu{
+  margin-left: 30px;
+  margin-top: 0px;
+}
+
+ul.menu-list a.title-menu{
+  /* font-weight: 700; */
+  font-size: 40px;
+  /* text-transform: uppercase; */
+  padding-left: 0px;
+  padding-bottom: 3px;
+  /* letter-spacing: 1px; */
+}
+
+/* ul.menu-list a.title-menu span{
+  background-color: rgba(0,0,0,.7);
+  color: white;
+} */
+
+ul.menu-list .slogan{
+  color: rgba(0,0,0,.7);
+  margin-top: 0px;
+  font-size: 14px;
+  margin-bottom: 20px;  
+  margin-left: 3px;
+  font-weight: 700;
+  text-transform: uppercase;
+  /* transform: rotate(-1deg); */
+}
+
+.menu-list a{
+  transition: color 0.1s ease-in-out;
+}
+
+.menu-list a:hover {
+  background-color: transparent !important;
+  color: #ececec !important;
+  font-weight: 700;
+}
+
+.button{
+  margin-top: 30px;
+}
+
+/* ul.menu-list .slogan span{
+  background-color: rgba(0,0,0,.7);
+  line-height: 25px;
+} */
+
+
+
+@media screen and (min-width: 769px), print{
+  .column.is-9{
+    flex: auto;
+  }
+}
