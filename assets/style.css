@@ -40,6 +40,9 @@ section.contentContainer{
 
 .contentContainer h2{
   border-bottom: 1px solid black;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .contentContainer a{
@@ -123,11 +126,41 @@ ul.menu-list .slogan{
   margin-top: 30px;
 }
 
+.field{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.label{
+  flex: 1;
+}
+
+.control{
+  flex: 3;
+}
+
+.file{
+  display: flex;
+}
+
+.file-label{
+  flex: 3;
+}
+
 /* ul.menu-list .slogan span{
   background-color: rgba(0,0,0,.7);
   line-height: 25px;
 } */
 
+ul.topics{
+  margin-left: 30px;
+  list-style: initial;
+}
+
+p.tag{
+  margin-top: 20px;
+}
 
 
 @media screen and (min-width: 769px), print{
