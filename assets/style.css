@@ -25,11 +25,12 @@ section.contentContainer{
   padding-top: 50px;
   padding-left: 10%;
   padding-right: 10%;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 
 .index{
   box-shadow: 4px -1px 10px #ececec;
+  padding-bottom: 30px !important;
 }
 
 .index nav ul{
@@ -43,15 +44,12 @@ section.contentContainer{
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
-.contentContainer a{
+.accueilSlogan {
   font-size: 30px;
   color: black;
-}
-
-.contentContainer a:hover{
-  color: #ffaf24
 }
 
 .accueilSlogan{
@@ -88,12 +86,16 @@ aside.menu{
 }
 
 ul.menu-list a.title-menu{
-  /* font-weight: 700; */
+  font-weight: 500;
   font-size: 40px;
   /* text-transform: uppercase; */
   padding-left: 0px;
   padding-bottom: 3px;
   /* letter-spacing: 1px; */
+}
+
+strong{
+  font-weight: 400;
 }
 
 /* ul.menu-list a.title-menu span{
@@ -171,6 +173,19 @@ h3.separate{
   padding-top: 40px;
 }
 
+.box{
+  background-color: #fdfdfd !important;
+}
+
+a.social{
+  margin-right: 10px;
+}
+
+.donate{
+  margin-top: 0px;
+  background-color: transparent;
+  border-color: rgba(0,0,0,.7);
+}
 
 @media screen and (min-width: 769px), print{
   .column.is-9{
