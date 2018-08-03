@@ -14,10 +14,10 @@
         <li>
             <a href="installer.php"><strong>S'Installer</strong></a>
             <ul>
-                <li><a href="installer.php#service-social">Service Social</a></li>
-                <li><a href="installer.php#logement">Logement</a></li>
-                <li><a href="installer.php#aide-materielle">Aide Matérielle</a></li>
-                <li><a href="installer.php#reinstallation">Réinstallation</a></li>
+                <li><a href="installer.php#service-social" data-scroll>Service Social</a></li>
+                <li><a href="installer.php#logement" data-scroll>Logement</a></li>
+                <li><a href="installer.php#aide-materielle" data-scroll>Aide Matérielle</a></li>
+                <li><a href="installer.php#reinstallation" data-scroll>Réinstallation</a></li>
             </ul>
         </li>
         <li><a href="inserer.php"><strong>S'Insérer</strong></a>
@@ -50,3 +50,5 @@
         <a href="#" class="social"><i class="fab fa-instagram fa-2x"></i></a>
         <a href="#" class="button donate is-rounded social is-small">Donate</a>
 </aside>
+
+

@@ -6,15 +6,16 @@
     ?>
     <title>Qui sommes-nous ?</title>
 </head>
-<body class="columns">
+<body>
+<div class="columns">
     <section class="column is-3 hero is-medium is-warning is-bold index">
         <?php
             require('menu.php');
         ?>
     </section>
-    <section class="column contentContainer is-9">
+    <section class="column contentContainer">
         <h2>Qui sommmes-nous ?</h2>         
-            <h3 class="title is-3">L’équipe</h3>
+            <h3 class="title is-3 first">L’équipe</h3>
                 <p>
                     Le mouvement Convivial rassemble aujourd’hui environ 80 travailleurs :
                     Une trentaine de personnes salariées, rémunérées par les subsides publics;
@@ -56,5 +57,6 @@
                     fondations soutiennent Convivial dans le cadre de projets particuliers.
                 </p> 
     </section>
+</div>
 </body>
 </html>

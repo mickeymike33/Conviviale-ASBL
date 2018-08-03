@@ -7,16 +7,11 @@
   box-sizing: content-box;
 }
 
-html, body{
-  max-height: 100vh;
-}
-
-body.columns{
+.columns{
   margin-top: 0px;
 }
 
 .column{
-  max-height: 100vh;
   overflow-y: auto;
   min-height: 0px;
 }
@@ -26,11 +21,24 @@ section.contentContainer{
   padding-left: 10%;
   padding-right: 10%;
   padding-bottom: 100px;
+  animation: myfadeInAnimation 0.5s;
+  margin-left: 25%;
+}
+
+@keyframe myfadeInAnimation {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+@-webkit-keyframes myfadeInAnimation {
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
 
 .index{
   box-shadow: 4px -1px 10px #ececec;
   padding-bottom: 30px !important;
+  height: 100vh;
+  position: fixed;
 }
 
 .index nav ul{
@@ -50,10 +58,11 @@ section.contentContainer{
 .accueilSlogan {
   font-size: 30px;
   color: black;
+  margin-top: 20px;
 }
 
-.accueilSlogan{
-  margin-top: 20px;
+p.slogan{
+  letter-spacing: 1px;
 }
 
 .containerVideo {
@@ -83,10 +92,11 @@ figure.image{
 aside.menu{
   margin-left: 30px;
   margin-top: 0px;
+  padding-bottom: 50px;
 }
 
 ul.menu-list a.title-menu{
-  font-weight: 500;
+  /* font-weight: 500; */
   font-size: 40px;
   /* text-transform: uppercase; */
   padding-left: 0px;
@@ -94,8 +104,14 @@ ul.menu-list a.title-menu{
   /* letter-spacing: 1px; */
 }
 
+a.title-menu span{
+  font-family: 'Kalam', cursive;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
 strong{
-  font-weight: 400;
+  font-weight: 600 !important;
 }
 
 /* ul.menu-list a.title-menu span{
@@ -142,6 +158,11 @@ ul.menu-list .slogan{
   flex: 3;
 }
 
+.control button{
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
 .file{
   display: flex;
 }
@@ -185,6 +206,53 @@ a.social{
   margin-top: 0px;
   background-color: transparent;
   border-color: rgba(0,0,0,.7);
+}
+
+.first{
+  padding-top: 10px;
+}
+
+.button a{
+  color:rgba(0,0,0,.7);
+}
+
+.radio input{
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 1000px){
+
+  .index{
+    position: initial;
+    height: auto !important;
+    /* height: 22px !important;
+    position: fixed;
+    display: block;
+    overflow-y: hidden;
+    display: none; */
+  }
+
+  section.contentContainer{
+    margin-left: 0px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 40px;
+  }
+
+  .columns{
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  a.title-menu{
+    padding-top: 10px;
+  }
+
+  aside.menu {
+    margin-left: 10px;
+    padding-bottom: 0px;
+  }  
+
 }
 
 @media screen and (min-width: 769px), print{

@@ -6,7 +6,8 @@
     ?>
     <title>Mission</title>
 </head>
-<body class="columns">
+<body>
+<div class="columns">
     <section class="column is-3 hero is-medium is-warning is-bold index">
         <?php
             require('menu.php');
@@ -14,7 +15,7 @@
     </section>
     <section class="column contentContainer is-9">
     <h2>Mission</h2>
-        <h3 class="title is-3">Notre vision</h3>
+        <h3 class="title is-3 first">Notre vision</h3>
             <p>
                 Né de la rencontre et de l’entraide entre une Belge et une réfugiée rwandaise en 1994,
                 le mouvement Convivial a pour objectif de favoriser l’insertion des réfugiés en Belgique dans
@@ -45,5 +46,6 @@
                 dans la vie de l’organisation.
             </p>  
     </section>
+</div>
 </body>
 </html>

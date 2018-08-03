@@ -6,7 +6,8 @@
     ?>
     <title>Contact</title>
 </head>
-<body class="columns">
+<body>
+<div class="columns">
     <section class="column is-3 hero is-medium is-warning is-bold index">
         <?php
             require('menu.php');
@@ -14,7 +15,7 @@
     </section>
     <section class="column contentContainer is-9">
         <h2>Contact</h2>   
-        <div class="field">
+        <div class="field first">
             <label class="label">Titre</label>
             <div class="control">
                 <label class="radio">
@@ -94,10 +95,13 @@
             </div>
         </div>
         <div class="field">
+            <div class="label"></div>
             <div class="control">
-                <button class="button is-warning is-medium">Contact</button>
+                <button class="button is-warning">Contact</button>
+                <button class="button">Annuler</button>
             </div>
         </div>
     </section>
+</div>
 </body>
 </html>

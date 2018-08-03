@@ -6,7 +6,8 @@
     ?>
     <title>Accueil Convivial</title>
 </head>
-<body class="columns">
+<body>
+<div class="columns">
     <section class="column is-3 hero is-medium is-warning is-bold index">
         <?php
             require('menu.php');
@@ -14,7 +15,7 @@
     </section>
     <section class="column contentContainer is-9">
         <h2>S'insérer</h2>
-            <h3 class="title is-3" id="guidance-socioprofessionnelle">Guidance socioprofessionnelle</h3>
+            <h3 class="title is-3 first" id="guidance-socioprofessionnelle">Guidance socioprofessionnelle</h3>
                 <p>
                     Ce service accompagne individuellement et collectivement les Réfugiés installés afin de <strong> favoriser son intégration par l’emploi, la formation, la reconnaissance et la consolidation de ses compétences.</strong>
                 </p>
@@ -165,5 +166,6 @@
                     </p>
                     <p class="tag is-warning">collectif@convivial.be</p>
     </section>
+    </div>
 </body>
 </html>

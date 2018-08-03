@@ -6,7 +6,8 @@
     ?>
     <title>S'Installer</title>
 </head>
-<body class="columns">
+<body>
+    <div class="columns">
     <section class="column is-3 hero is-medium is-warning is-bold index">
         <?php
             require('menu.php');
@@ -14,7 +15,7 @@
     </section>
     <section class="column contentContainer is-9">
         <h2>S'installer</h2>
-            <h3 class="title is-3" id="service-social">Service social</h3>
+            <h3 class="title is-3 first" id="service-social">Service social</h3>
                 <p>
                     Au service social, chaque Réfugié est accueilli par un travailleur qui dresse avec lui un bilan de ses difficultés, 
                     besoins, inquiétudes et qui l’aide à se prendre en charge dans la définition d’un nouveau projet de vie. 
@@ -117,7 +118,7 @@
                     </p>
                     <p class="tag is-warning">logement@convivial.be</p>
             </ul>
-                <br>    
+                <br>  
                 <h3 class="title is-3 separate" id="aide-materielle">Aide matérielle</h3>
                 <p>
                     A la sortie des centres d’accueil, les réfugiés n’ont pas les moyens financiers et matériels de s’installer dans 
@@ -162,5 +163,6 @@
                     </p>
                     <p class="tag is-warning">reinstallation@convivial.be</p>
     </section>
+    </div>
 </body>
 </html>

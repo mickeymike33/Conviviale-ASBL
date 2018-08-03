@@ -6,7 +6,8 @@
     ?>
     <title>Sensibiliser</title>
 </head>
-<body class="columns">
+<body>
+<div class="columns">
     <section class="column is-3 hero is-medium is-warning is-bold index">
         <?php
             require('menu.php');
@@ -14,7 +15,7 @@
     </section>
     <section class="column contentContainer is-9">
         <h2>Sensibiliser</h2>
-            <h3 class="title is-3" id="parcours">Le parcours pédagogique «l’asile pas à pas»</h3>
+            <h3 class="title is-3 first" id="parcours">Le parcours pédagogique «l’asile pas à pas»</h3>
                 <p>
                     Les demandeurs d’asile et réfugiés sont souvent confrontés à des préjugés dus à un manque de connaissance sur leur parcours, les motifs de leur arrivée en Belgique, leurs difficultés et perspectives d’avenir,…
                 </p>
@@ -79,5 +80,6 @@
                     </article>
                 </div>
     </section>
+</div>
 </body>
 </html>
