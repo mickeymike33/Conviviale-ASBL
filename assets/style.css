@@ -220,23 +220,109 @@ a.social{
   margin-right: 5px;
 }
 
+.index-mobile{
+  display: none;
+}
+
+.header-mobile{
+  display: none !important;
+}
+
+.accueilSlogan-mobile{
+  display: none;
+}
+
+.footer-mobile{
+  display: none;
+}
+
 @media screen and (max-width: 1000px){
 
-  .index{
+  .header-mobile{
+    display: flex !important;
+    justify-content: space-between;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 1px 2px 16px 0px #ececec;
+    z-index: 1;
+  }
+
+  a.title-menu span {
+    font-size: 22px;
+    color: rgba(0,0,0,.7);
+}
+
+.burger-menu {
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  position: relative;
+  padding-left: 0px;
+  padding-right: 10px;
+  padding-top: 2px;
+  background-color: transparent;
+  border: none;
+}
+.burger-menu span {
+display: block;
+width: 100%;
+height: 2px;
+border-radius: 1px;
+margin-top: 6px;
+background: #000;
+}
+
+.burger-menu span:first-child {
+	margin-top: 0;
+}
+
+.social-mobile{
+  margin-top: 3px;
+}
+
+.social-mobile a.social{
+  color: rgba(0,0,0,.7);
+}
+
+.index{
+  display: none;
+}
+
+  .index-mobile{
     position: initial;
-    height: auto !important;
+    /* height: auto !important; */
     /* height: 22px !important;
     position: fixed;
     display: block;
     overflow-y: hidden;
     display: none; */
+    position: fixed !important;
+    width: 60%;
+    z-index: 100000;
+    overflow-y: scroll;
+    height: 100% !important;
+    display: none;
+    box-shadow: none;
+    top: 0px;
+  }
+
+  aside.menu ul.desktop{
+    display: none;
   }
 
   section.contentContainer{
     margin-left: 0px;
-    padding-left: 8%;
-    padding-right: 8%;
-    padding-top: 40px;
+    padding-left: 4%;
+    padding-right: 4%;
+    /* padding-top: 55px; */
+    padding-bottom: 10px;
+    margin-top: 30px;
   }
 
   .columns{
@@ -249,9 +335,53 @@ a.social{
   }
 
   aside.menu {
-    margin-left: 10px;
-    padding-bottom: 0px;
-  }  
+    margin-left: 5px;
+    padding-bottom: 20px;
+  } 
+  
+  .accueilSlogan{
+    display: none;
+  }
+
+  .accueilSlogan-mobile{
+    display: block;
+    font-size: 30px;
+    color: black;
+    margin-top: 20px;
+  }
+
+  .field{
+    flex-direction: column;
+  }
+
+  .file{
+    flex-direction: column;
+  }
+
+  .control{
+    padding-right: 5%;
+  }
+
+  .footer-mobile{
+    display: block;
+    padding-left: 5%;
+    /* background-color: #fdfdfd; */
+    padding-top: 10px;
+    padding-bottom: 20px;
+    /* box-shadow: 0px -3px 16px #ececec; */
+    /* margin-top: 20px; */
+    
+  }
+
+  .hide-mobile{
+    display: none;
+  }
+
+  .donate{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+  }
 
 }
 

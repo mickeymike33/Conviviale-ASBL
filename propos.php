@@ -7,8 +7,18 @@
     <title>Qui sommes-nous ?</title>
 </head>
 <body>
+<div class="columns header-mobile has-background-warning">
+    <?php
+        require('forms/header-mobile.php');
+    ?>
+</div>
 <div class="columns">
     <section class="column is-3 hero is-medium is-warning is-bold index">
+        <?php
+            require('menu.php');
+        ?>
+    </section>
+    <section class="column is-3 hero is-medium is-warning is-bold index-mobile">
         <?php
             require('menu.php');
         ?>

@@ -1,5 +1,5 @@
 <aside class="menu">
-    <ul class="menu-list">
+    <ul class="menu-list desktop">
         <li><a class="title-menu" href="index.php"><span>Convivial</span></a></li>
         <p class="slogan">
             <span>Mouvement d'insertion</span> 
@@ -34,20 +34,20 @@
             À Propos
         </p>
         <ul class="menu-list">
-            <li><a href="propos.php">Qui sommes-nous ?</a></li>
             <li><a href="mission.php">Notre Mission</a></li>
+            <li><a href="propos.php">Qui sommes-nous ?</a></li>
             <li><a href="contact.php">Contact</a></li>
             <li><a href="#">Newsletter</a></li>
         </ul>
-        <p class="menu-label">
+        <p class="menu-label hide-mobile">
             Mouvement d insertion des Réfugiés
             <br>
             Rue du Charroi 33-35, 1190 Bruxelles
             <br>
             T 02 503 43 46
         </p>
-        <a href="#" class="social"><i class="fab fa-facebook-f fa-2x"></i></a>
-        <a href="#" class="social"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="#" class="social hide-mobile"><i class="fab fa-facebook-f fa-2x"></i></a>
+        <a href="#" class="social hide-mobile"><i class="fab fa-instagram fa-2x"></i></a>
         <a href="#" class="button donate is-rounded social is-small">Donate</a>
 </aside>
 
