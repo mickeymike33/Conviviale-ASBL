@@ -15,15 +15,6 @@
     <a href="#" class="social"><i class="fab fa-instagram fa-1x"></i></a>
 </div>
 
-<!-- <script>
-    $(document).ready(function(){
-    $("button.burger-menu").click(function(){
-        $(".index").toggle("drop");
-    });
-});
-
-</script> -->
-
 <script>
     $(document).ready(function(){
         $('button.burger-menu').click( function(event){

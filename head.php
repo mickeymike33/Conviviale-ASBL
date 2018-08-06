@@ -5,8 +5,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
 <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
 <link rel="stylesheet" href="assets/style.css">
-<script src="assets/js/script.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="assets/js/jquery-1.7.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14.0/dist/smooth-scroll.polyfills.min.js"></script>
 <script>
 	var scroll = new SmoothScroll('a[href*="#"]');
