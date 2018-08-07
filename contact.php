@@ -129,8 +129,8 @@
             <div class="field">
                 <div class="label"></div>
                 <div class="control">
-                    <button class="button is-warning" id="submit" name="send">Contact</button>
-                    <button class="button" id="cancel" name="send">Annuler</button>
+                    <button class="button is-warning" id="submit" name="submit">Contact</button>
+                    <button class="button" id="cancel" name="cancel">Annuler</button>
                 </div>
             </div>
         </form>
