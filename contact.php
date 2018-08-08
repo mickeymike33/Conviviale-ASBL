@@ -25,7 +25,7 @@
     </section>
     <section class="column contentContainer is-9">
         <h2>Contact</h2>
-        <form action="forms/form.php" method="post"> 
+        <form action="form.php" method="post" enctype="multipart/form-data"> 
         <!-- Titre: type radio -->
             <div class="field first">
                 <label class="label">Titre</label>
@@ -70,11 +70,11 @@
                 <label class="label">Objet</label>
                 <div class="control">
                     <div class="select">
-                        <select>
+                        <select name="objet">
                             <option>Selectionner</option>
-                            <option name="objet" id="besoin">J'ai besoin d'aide</option>
-                            <option name="objet" id="proposer">J'aimerais proposer de l'aide</option>
-                            <option name="objet" id="autre">Autre</option>
+                            <option name="objet" value="besoin">J'ai besoin d'aide</option>
+                            <option name="objet" value="proposer">J'aimerais proposer de l'aide</option>
+                            <option name="objet" value="autre">Autre</option>
                         </select>
                     </div>
                 </div>
@@ -90,7 +90,7 @@
             <div class="file">
                 <label class="label">Documents</label>
                 <label class="file-label">
-                <input class="file-input" type="file" name="file" id="file">
+                <input class="file-input" type="file" name="userfile">
                 <span class="file-cta">
                     <span class="file-icon">
                         <i class="fas fa-upload"></i>
@@ -120,7 +120,7 @@
             <div class="label"></div>
                 <div class="control">
                     <label class="checkbox">
-                    <input type="checkbox" name="terms" id="terms">
+                    <input type="checkbox" name="terms" class="terms">
                     J'ai lu et j'accepte les <a href="../forms/cgu.php">conditions générales</a> d'utilisation du site.
                     </label>
                 </div>
@@ -129,12 +129,26 @@
             <div class="field">
                 <div class="label"></div>
                 <div class="control">
-                    <button class="button is-warning" id="submit" name="submit">Contact</button>
+                    <button class="button is-warning" id="submit" name="submit" type="submit">Contact</button>
                     <button class="button" id="cancel" name="cancel">Annuler</button>
                 </div>
             </div>
         </form>
     </section>
 </div>
+<script>
+    var inp = $('input');
+    inp.blur(function () {
+        inp.removeClass('is-danger').filter(function(){
+        return !$.trim(this.value);
+        }).addClass('is-danger');
+    });
+    var text = $('.textarea');
+    text.blur(function () {
+        text.removeClass('is-danger').filter(function(){
+        return !$.trim(this.value);
+        }).addClass('is-danger');
+    });
+</script>
 </body>
 </html>
