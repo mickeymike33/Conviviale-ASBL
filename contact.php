@@ -1,3 +1,7 @@
+<?php 
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -48,21 +52,21 @@
             <div class="field">
                 <label class="label">Nom</label>
                 <div class="control">
-                    <input class="input" type="text" placeholder="Dickmans" name="nom" id="nom">
+                    <input class="input nom" type="text" placeholder="Dickmans" name="nom" required  pattern="[A-Za-z]{1-10}">
                 </div>
             </div>
             <!-- Prénom: type text -->
             <div class="field">
                 <label class="label">Prénom</label>
                 <div class="control">
-                    <input class="input" type="text" placeholder="Charles" name="prenom" id="prenom">
+                    <input class="input prenom" type="text" placeholder="Charles" name="prenom" required pattern="[A-Za-z]{1-10}">
                 </div>
             </div>
             <!-- Email: type text -->
             <div class="field">
                 <label class="label">E-mail</label>
                 <div class="control">
-                    <input class="input" type="text" placeholder="charlesdickmans@gmail.com" name="email" id="email">
+                    <input class="input email" type="text" placeholder="charlesdickmans@gmail.com" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
                 </div>
             </div>    
             <!-- Objet: type select -->
@@ -71,10 +75,10 @@
                 <div class="control">
                     <div class="select">
                         <select name="objet">
-                            <option>Selectionner</option>
-                            <option name="objet" value="besoin">J'ai besoin d'aide</option>
-                            <option name="objet" value="proposer">J'aimerais proposer de l'aide</option>
-                            <option name="objet" value="autre">Autre</option>
+                            <option name="objet" value="J'ai besoin d'une information">J'ai besoin d'une information</option>
+                            <option name="objet" value="J'ai besoin d'aide">J'ai besoin d'aide</option>
+                            <option name="objet" value="J'aimerais proposer de l'aide">J'aimerais proposer de l'aide</option>
+                            <option name="objet" value="Autre">Autre</option>
                         </select>
                     </div>
                 </div>
@@ -83,14 +87,14 @@
             <div class="field">
                 <label class="label">Votre message</label>
                 <div class="control">
-                    <textarea class="textarea" placeholder="Lorem ipsum" name="message" id="message"></textarea>
+                    <textarea class="textarea" placeholder="Lorem ipsum" name="message" required></textarea>
                 </div>
             </div>
             <!-- File: type file -->
             <div class="file">
                 <label class="label">Documents</label>
                 <label class="file-label">
-                <input class="file-input" type="file" name="userfile">
+                <input class="file-input" type="file" name="userfile" onchange="setfilename(this.value);">
                 <span class="file-cta">
                     <span class="file-icon">
                         <i class="fas fa-upload"></i>
@@ -99,6 +103,14 @@
                         Choisir un fichier…
                     </span>
                 </span>
+                <input id="uploadFile" name="uploadFileOne" type="text" disabled="disabled" placeholder="" class="name-info-form file-witdth" />
+                <script>
+                    function setfilename(val)
+                    {
+                        var fileName = val.substr(val.lastIndexOf("\\")+1, val.length);
+                        document.getElementById("uploadFile").value = fileName;
+                    }    
+                </script>
                 </label>
             </div>
             <!-- Réponse format: type radio -->
@@ -106,11 +118,11 @@
                 <label class="label">Format de réponse</label>
                 <div class="control">
                     <label class="radio">
-                        <input type="radio" id="html" name="format">
+                        <input type="radio" id="html" name="format" value="html">
                         HTML
                     </label>
                     <label class="radio">
-                        <input type="radio" id="txt" name="format">
+                        <input type="radio" id="txt" name="format" value="txt">
                         TXT
                     </label>
                 </div>
@@ -120,7 +132,7 @@
             <div class="label"></div>
                 <div class="control">
                     <label class="checkbox">
-                    <input type="checkbox" name="terms" class="terms">
+                    <input type="checkbox" name="terms" class="terms" required>
                     J'ai lu et j'accepte les <a href="../forms/cgu.php">conditions générales</a> d'utilisation du site.
                     </label>
                 </div>
@@ -130,25 +142,46 @@
                 <div class="label"></div>
                 <div class="control">
                     <button class="button is-warning" id="submit" name="submit" type="submit">Contact</button>
-                    <button class="button" id="cancel" name="cancel">Annuler</button>
+                    <button class="button" id="cancel" name="cancel" onclick="goBack()">Annuler</button>
+                </div>
+            </div>
+            <div class="field">
+                <div class="label"></div>
+                <div class="control success">
+                <?php
+                    if(isset($_SESSION['success']))
+                    {
+                        echo $_SESSION['success'];
+                    }
+                 ?>
                 </div>
             </div>
         </form>
     </section>
 </div>
 <script>
-    var inp = $('input');
+function goBack() {
+    location.href = 'index.php';
+}
+</script>
+<!-- <script>
+    var inp = $('.nom');
     inp.blur(function () {
         inp.removeClass('is-danger').filter(function(){
         return !$.trim(this.value);
         }).addClass('is-danger');
     });
+
     var text = $('.textarea');
     text.blur(function () {
         text.removeClass('is-danger').filter(function(){
         return !$.trim(this.value);
         }).addClass('is-danger');
     });
-</script>
+</script> -->
 </body>
 </html>
+
+<?php
+session_destroy();
+?>

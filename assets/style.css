@@ -25,7 +25,7 @@ section.contentContainer{
   margin-left: 25%;
 }
 
-@keyframe myfadeInAnimation {
+@keyframes myfadeInAnimation{
   from {opacity: 0;}
   to {opacity: 1;}
 }
@@ -152,6 +152,7 @@ ul.menu-list .slogan{
 
 .label{
   flex: 1;
+  font-weight: 600;
 }
 
 .control{
@@ -234,6 +235,19 @@ a.social{
 
 .footer-mobile{
   display: none;
+}
+
+.erreur{
+  color: red !important;
+}
+
+#uploadFile{
+  border: none !important;
+  margin-left: 10px;
+}
+
+.success{
+  color: green;
 }
 
 @media screen and (max-width: 1000px){
