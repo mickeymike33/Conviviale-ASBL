@@ -1,6 +1,7 @@
 <aside class="menu">
     <ul class="menu-list desktop">
         <li><a class="title-menu" href="index.php"><span>Convivial</span></a></li>
+        <!-- <li><a class="title-menu" href="index.php"><img src="assets/img/convivial_logo.png" alt="convivial" width="80%"></a></li> -->
         <p class="slogan">
             <span>Mouvement d'insertion</span> 
             <br>
@@ -34,10 +35,8 @@
             À Propos
         </p>
         <ul class="menu-list">
-            <li><a href="mission.php">Notre Mission</a></li>
             <li><a href="propos.php">Qui sommes-nous ?</a></li>
             <li><a href="contact.php">Contact</a></li>
-            <li><a href="#">Newsletter</a></li>
         </ul>
         <p class="menu-label hide-mobile">
             Mouvement d insertion des Réfugiés
@@ -50,5 +49,17 @@
         <a href="#" class="social hide-mobile"><i class="fab fa-instagram fa-2x"></i></a>
         <a href="#" class="button donate is-rounded social is-small">Donate</a>
 </aside>
+
+<!-- <script>
+
+$("a.title-menu").hover(
+function() {
+    $(this).find('img').attr("src", "assets/img/convivial_logo-b.png");
+},
+function() {
+    $(this).find('img').attr("src", "assets/img/convivial_logo.png");
+}
+);
+</script> -->
 
 

@@ -39,6 +39,7 @@ section.contentContainer{
   padding-bottom: 30px !important;
   height: 100vh;
   position: fixed;
+  background-color: hsl(44, 100%, 68%);
 }
 
 .index nav ul{
@@ -48,7 +49,7 @@ section.contentContainer{
 }
 
 .contentContainer h2{
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgba(0,0,0,.7);
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
@@ -56,13 +57,19 @@ section.contentContainer{
 }
 
 .accueilSlogan {
-  font-size: 30px;
-  color: black;
+  font-size: 25px;
+  color: rgba(0,0,0,.7);
   margin-top: 20px;
+  font-weight: 600;
 }
 
 p.slogan{
   letter-spacing: 1px;
+  padding-top: 0px;
+}
+
+.indexContent{
+  padding-top: 30px !important;
 }
 
 .containerVideo {
@@ -70,7 +77,7 @@ p.slogan{
   width: 100%;
   height: 0;
   padding-bottom: 56.25%;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 .video {
   position: absolute;
@@ -78,6 +85,10 @@ p.slogan{
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+video{
+  margin-top: 0px;
 }
 
 .title{
@@ -105,7 +116,7 @@ ul.menu-list a.title-menu{
 }
 
 a.title-menu span{
-  font-family: 'Kalam', cursive;
+  font-family: 'Kalam', sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -234,7 +245,7 @@ a.social{
 }
 
 .footer-mobile{
-  display: none;
+  display: none !important;
 }
 
 .erreur{
@@ -248,6 +259,10 @@ a.social{
 
 .success{
   color: green;
+}
+
+a.social{
+  color: rgba(0,0,0,.7);
 }
 
 @media screen and (max-width: 1000px){
@@ -310,12 +325,6 @@ background: #000;
 
   .index-mobile{
     position: initial;
-    /* height: auto !important; */
-    /* height: 22px !important;
-    position: fixed;
-    display: block;
-    overflow-y: hidden;
-    display: none; */
     position: fixed !important;
     width: 60%;
     z-index: 100000;
@@ -324,6 +333,7 @@ background: #000;
     display: none;
     box-shadow: none;
     top: 0px;
+    background-color: hsl(44, 100%, 68%) !important;
   }
 
   aside.menu ul.desktop{
@@ -359,9 +369,10 @@ background: #000;
 
   .accueilSlogan-mobile{
     display: block;
-    font-size: 30px;
-    color: black;
+    font-size: 25px;
     margin-top: 20px;
+    color: rgba(0,0,0,.7);
+    font-weight: 600;
   }
 
   .field{
@@ -376,17 +387,6 @@ background: #000;
     padding-right: 5%;
   }
 
-  .footer-mobile{
-    display: block;
-    padding-left: 5%;
-    /* background-color: #fdfdfd; */
-    padding-top: 10px;
-    padding-bottom: 20px;
-    /* box-shadow: 0px -3px 16px #ececec; */
-    /* margin-top: 20px; */
-    
-  }
-
   .hide-mobile{
     display: none;
   }
@@ -397,10 +397,33 @@ background: #000;
     margin-left: 5px;
   }
 
+  video{
+    margin-top: 20px !important;
+  }
+
+  .containerVideo {
+    margin-top: 25px;
+  }
+
 }
 
 @media screen and (min-width: 769px), print{
   .column.is-9{
     flex: auto;
+  }
+}
+
+@media screen and (max-width: 685px){
+  .footer-mobile{
+    display: block !important;
+    padding-left: 5%;
+    /* background-color: #fdfdfd; */
+    padding-top: 10px;
+    padding-bottom: 20px;
+    position: absolute;
+    bottom: 0px;
+    /* box-shadow: 0px -3px 16px #ececec; */
+    /* margin-top: 20px; */
+    
   }
 }

@@ -17,12 +17,12 @@ session_start();
     ?>
 </div>
 <div class="columns">
-    <section class="column is-3 hero is-medium is-warning is-bold index">
+    <section class="column is-3 is-medium is-warning is-bold index">
         <?php
             require('menu.php');
         ?>
     </section>
-    <section class="column is-3 hero is-medium is-warning is-bold index-mobile">
+    <section class="column is-3 is-medium is-warning is-bold index-mobile">
         <?php
             require('menu.php');
         ?>
@@ -52,14 +52,14 @@ session_start();
             <div class="field">
                 <label class="label">Nom</label>
                 <div class="control">
-                    <input class="input nom" type="text" placeholder="Dickmans" name="nom" required  pattern="[A-Za-z]{1-10}">
+                    <input class="input nom" type="text" placeholder="Dickmans" name="nom" required  pattern="[A-Za-z]{1,10}">
                 </div>
             </div>
             <!-- Prénom: type text -->
             <div class="field">
                 <label class="label">Prénom</label>
                 <div class="control">
-                    <input class="input prenom" type="text" placeholder="Charles" name="prenom" required pattern="[A-Za-z]{1-10}">
+                    <input class="input prenom" type="text" placeholder="Charles" name="prenom" required pattern="[A-Za-z]{1,10}">
                 </div>
             </div>
             <!-- Email: type text -->

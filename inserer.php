@@ -13,12 +13,12 @@
     ?>
 </div>
 <div class="columns">
-    <section class="column is-3 hero is-medium is-warning is-bold index">
+    <section class="column is-3 is-medium is-warning is-bold index">
         <?php
             require('menu.php');
         ?>
     </section>
-    <section class="column is-3 hero is-medium is-warning is-bold index-mobile">
+    <section class="column is-3 is-medium is-warning is-bold index-mobile">
         <?php
             require('menu.php');
         ?>
@@ -79,6 +79,9 @@
                         Pour les réfugiés qui souhaitent apprendre le néerlandais, Convivial les oriente vers la Maison du Néerlandais.
                     </p>
                     <br>
+                <figure class="image">
+                    <img src="assets/img/cover-3.jpg">
+                </figure>   
                 <div class="box">
                     <article class="media">
                         <div class="media-content">

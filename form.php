@@ -41,9 +41,9 @@ try {
     $mail->Port = 587;                                    // TCP port to connect to
 
     //Recipients
-    $mail->setFrom($email, $prenom);
+    $mail->setFrom('convivialgmp@gmail.com', 'Convivial Asbl');
     $mail->addAddress('convivialgmp@gmail.com', 'Convivial Asbl');     // Add a recipient
-    // $mail->addReplyTo($email, $prenom);
+    $mail->addReplyTo($email, $prenom);
     $mail->addCC($email);
 
     //Upload Image

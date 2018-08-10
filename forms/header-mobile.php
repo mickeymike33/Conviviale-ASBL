@@ -1,9 +1,9 @@
 <div class="menu-mobile-burger">
-    <button class="burger-menu">
-        <div class="lines">
-            <span></span>
-            <span></span>
-            <span></span>
+    <button class="burger-menu" role="menu" aria-label="Menu">
+        <div class="lines" role="menu" aria-label="Menu">
+            <span aria-label="Menu" aria-required="true"></span>
+            <span aria-label="Menu" aria-required="true"></span>
+            <span aria-label="Menu" aria-required="true"></span>
         </div>
     </button>
 </div>
@@ -11,8 +11,8 @@
     <a class="title-menu" href="index.php"><span>Convivial</span></a>
 </div>
 <div class="social-mobile">
-    <a href="#" class="social"><i class="fab fa-facebook-f fa-1x"></i></a>
-    <a href="#" class="social"><i class="fab fa-instagram fa-1x"></i></a>
+    <a href="#" class="social"><i class="fab fa-facebook-f fa-1x" alt="facebook" title="facebook"></i></a>
+    <a href="#" class="social"><i class="fab fa-instagram fa-1x" alt="instagram" title="instagram"></i></a>
 </div>
 
 <script>

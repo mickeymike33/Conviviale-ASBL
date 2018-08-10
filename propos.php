@@ -13,12 +13,12 @@
     ?>
 </div>
 <div class="columns">
-    <section class="column is-3 hero is-medium is-warning is-bold index">
+    <section class="column is-3 is-medium is-warning is-bold index">
         <?php
             require('menu.php');
         ?>
     </section>
-    <section class="column is-3 hero is-medium is-warning is-bold index-mobile">
+    <section class="column is-3 is-medium is-warning is-bold index-mobile">
         <?php
             require('menu.php');
         ?>
@@ -41,31 +41,37 @@
             <figure class="image">
                 <img src="assets/img/cover.jpg">
             </figure>
-            <h3 class="title is-3" >La structure</h3>
+            <h3 class="title is-3 separate">Notre vision</h3>
+            <p>
+                Né de la rencontre et de l’entraide entre une Belge et une réfugiée rwandaise en 1994,
+                le mouvement Convivial a pour objectif de favoriser l’insertion des réfugiés en Belgique dans
+                une dynamique d’écoute et d’engagement réciproque entre Belges et réfugiés.
+            </p>
+            <h3 class="title is-3 separate">Notre mission</h3>
+            <p>
+                Convivial accompagne les réfugiés reconnus tout au long de leur parcours,
+                depuis leur installation autonome dans un logement jusqu’aux premiers pas vers la réalisation
+                d’un projet d’insertion sociale et professionnelle. En parallèle, Convivial organise des dispositifs de
+                sensibilisation du grand public et de mise en relation entre citoyens
+                résidents en Belgique et réfugiés.
+            </p>     
+        <h3 class="title is-3 separate">Nos spécificités</h3>
+            <p>
+                Un accompagnement global et sur mesure dans la recherche de solutions aux besoins tout au long du parcours d’installation et d’insertion;
+                Des services specialisés s’adaptant continuellement en fonction des besoins;
+                Une combinaison de dispositifs de soutien individuel et de dynamiques collectives;
+                La co-création par les réfugiés et les Belges, avec des refugiés impliqués à tous les niveaux;
+                Un accueil de chaque bénéficiaire dans une langue familière avec une équipe multilingue rassemblant plus de 35 nationalités;
+                Une politique d’insertion par le travail offrant chaque année à une trentaine de personnes la possibilité de s’impliquer
+                dans la vie de l’organisation.
+            </p>  
+            <h3 class="title is-3 separate" >La structure</h3>
                 <p>
                     Afin de coller aux réalites institutionnelles belges, 2 asbl ont été créées au sein du mouvement Convivial :
                     l’asbl-vzw Convivium, bicommunautaire axée sur l’installation et la guidance socioprofessionnelle;
                     l’asbl Convivialités, unicommunautaire francophone, axée sur l’<strong>insertion et la cohésion sociale</strong>.
                     Ces 2 asbl forment le mouvement Convivial. Chacune de ces asbl est dirigée par un Conseil d’Administration. L’Assemblée Generale, qui rassemble les membres de chaque asbl, élit les administrateurs et approuvent les comptes et activités. La gestion quotidienne du mouvement est assurée par la Direction et le Comité de Coordination qui est composé du directeur et des responsables des différents services de Convivial.
                 </p>
-            <figure class="image">
-                <img src="assets/img/cover-1.jpg">
-            </figure>
-            <h3 class="title is-3">Subsides</h3>
-                <p>
-                    La majorité des financements de Convivial proviennent des subsides publics. Actiris, l’ONEM et les CPAS apportent un soutien récurrent dans l’engagement du personnel de l’ensemble du mouvement Convivial (ACS, conditions Activa, contrats Article60,…).
-                </p>
-            <br>
-                <p>
-                    L’asbl-vzw Convivium est subsidiée par : Fedasil – Le Fonds Asile Migration Intégration (AMIF) – La Région de Bruxelles Capitale (insertion par le logement – encadrement du personnel employé dans l’association en situation de remise à l’emploi (ILDE)) – La Commission Communautaire Commune (COCOM) – De Vlaamse Gemeenschapscommissie (VGC).
-                    L’asbl Convivialités est subsidiée par : La Commission Communautaire Française (COCOF) (cohésion sociale – Atelier de Formation par le Travail (AFT)) – Le Fonds d’Impulsion à la Politique des Immigrés (FIPI) et le Fonds Social Européen (FSE).
-                    Chaque année, des dons privés nous parviennent, à la fois en réponse à des appels a dons spécifiques mais aussi de manière continue tout au long de l’année. 
-                </p>
-            <br>
-                <p>
-                    Par ailleurs, plusieurs associations, entreprises et
-                    fondations soutiennent Convivial dans le cadre de projets particuliers.
-                </p> 
     </section>
 </div>
 </body>

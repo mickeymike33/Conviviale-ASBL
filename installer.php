@@ -13,12 +13,12 @@
     ?>
 </div>
 <div class="columns">
-    <section class="column is-3 hero is-medium is-warning is-bold index">
+    <section class="column is-3 is-medium is-warning is-bold index">
         <?php
             require('menu.php');
         ?>
     </section>
-    <section class="column is-3 hero is-medium is-warning is-bold index-mobile">
+    <section class="column is-3 is-medium is-warning is-bold index-mobile">
         <?php
             require('menu.php');
         ?>
@@ -33,6 +33,9 @@
                     aux Réfugiés et aux bénéficiaires de la protection subsidiaire récemment reconnus et qui s’installent en Belgique 
                     (les deux premières années).
                 </p>
+            <figure class="image">
+                <img src="assets/img/cover-1.jpg">
+            </figure>
             <ul class="topics">
                 <li>
                     <h3 class="title is-5">Aide pour les démarches administratives</h3>
@@ -159,6 +162,9 @@
                         dans la mesure du possible. Merci à vous.
                     </p>
                 <br>
+                <figure class="image">
+                    <img src="assets/img/cover-2.jpg">
+                </figure>  
                     <h3 class="title is-3 separate" id="reinstallation">Réinstallation</h3>
                     <p>
                         La Réinstallation des Réfugiés est une politique internationale menée par le Haut commissariat des Nations-Unies pour les Réfugiés (UNHCR) qui consiste à sélectionner et transférer 
