@@ -255,6 +255,7 @@ a.social{
 #uploadFile{
   border: none !important;
   margin-left: 10px;
+  background-color: white;
 }
 
 .success{

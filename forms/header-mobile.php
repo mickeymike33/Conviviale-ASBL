@@ -1,9 +1,9 @@
 <div class="menu-mobile-burger">
-    <button class="burger-menu" role="menu" aria-label="Menu">
-        <div class="lines" role="menu" aria-label="Menu">
-            <span aria-label="Menu" aria-required="true"></span>
-            <span aria-label="Menu" aria-required="true"></span>
-            <span aria-label="Menu" aria-required="true"></span>
+    <button class="burger-menu" role="menubar" aria-label="menu" aria-expanded="false">
+        <div class="lines">
+            <span aria-label="Menu-span" aria-required="true"></span>
+            <span aria-label="Menu-span" aria-required="true"></span>
+            <span aria-label="Menu-span" aria-required="true"></span>
         </div>
     </button>
 </div>
