@@ -18,6 +18,7 @@ Je vais parler pour toutes les personnes qui ont contribué sur ce projet **c’
 ## Screenshots
 
 1. [UML de l'équipe #GML](https://contattafiles.s3.us-west-1.amazonaws.com/tnt14094/LXztqaLXIefe6Ls/forms.png)
+![uml](forms/forms.png)
 
 
 
