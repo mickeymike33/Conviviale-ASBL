@@ -12,16 +12,12 @@ Je vais parler pour toutes les personnes qui ont contribué sur ce projet **c’
 # Links @ Website Convivial 2.0
 1. [Ceci est le site officiel du site convivial](https://www.convivial.be/)
 2. [Ceci est la version 2.0 du site convivial](http://convivial-asbl.herokuapp.com/index.php "http://convivial-asbl.herokuapp.com/index.php")
-3. [Ceci est le kanban en mode agile by Mika complét à 74%](https://github.com/mickeymike33/Conviviale-ASBL/projects/1)
-4. [Ceci est un lien pour les logs de nos comptes youtube/gmail /heroku #Skerk](https://we.tl/T7zJLmIFOa)
+3. [Ceci est le kanban en mode agile](https://github.com/mickeymike33/Conviviale-ASBL/projects/1)
 
 
 ## Screenshots
 
 ![uml](forms/forms.png)
-
-
-
 
 ## Tech/Framework used
 
@@ -55,23 +51,12 @@ Je vais parler pour toutes les personnes qui ont contribué sur ce projet **c’
 - Une chaine [*Youtube*]( qui a pour but de faire des vlogs à propos de ce projet.
 
 
-
-## Contribute / Key-role(Team #GMP)
-
-Ceci sont les 3 personnes qui ont participé au project Convivial ASBL avec chacun un rôle bien définit même si l'objectif principale est de maitriser un minimum php mais surtout les formulaires qui sont vraiment important à apprendre ! J'ai pensé à faire des [vLog](https://www.youtube.com/channel/UC1Hbf02RZN59Ljsh9sIt2NA?view_as=subscriber) pour parler un peu de ce qu'ils ont apporté à ce site et qu'est-ce qu'ils ont appris à travers ce challenge de 12 jours.
+## Team / Key-role(Team #GMP)
 
 1.  [**Pedro**](https://github.com/pedroseromenho)
-	- [Front-End] (https://www.youtube.com/channel/UC1Hbf02RZN59Ljsh9sIt2NA?view_as=subscriber)
-
 2. [**Guillaume**](https://github.com/Guillaume-Kreit)
-	- Swiss Knife :(https://www.youtube.com/channel/UC1Hbf02RZN59Ljsh9sIt2NA?view_as=subscriber)
 3.  [**Michael**](https://github.com/mickeymike33)
-	- Project Manager :(https://www.youtube.com/channel/UC1Hbf02RZN59Ljsh9sIt2NA?view_as=subscriber)
 
-
-## Feedbacks / The problems inside the (Team #GMP)
-
-						**Coming soon as well**
 
 ## Optimisation(Patch-Notes)
 
@@ -79,8 +64,3 @@ Ceci sont les 3 personnes qui ont participé au project Convivial ASBL avec chac
 	- Lancement initiale du produit en respectant les consignes et le delay de livraison.
 - Version BETA 1.1 ( 17 Août 2018)
 	- - COMING SOON " Rajout des vidéos sur youtube à propos de nos expérience du projet Convivial(GMP)
-
-## Credits
-
-									*_COMING SOON_*
-
