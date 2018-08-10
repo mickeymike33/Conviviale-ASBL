@@ -1,5 +1,8 @@
 
-## Convivial,  *_Mouvement d'insertions des réfugiés_*.
+# Convivial,  
+## Mouvement d'insertions des réfugiés
+
+### Multipage PHP website
 
 Convivial accompagne les Réfugiés, les bénéficiaires de la protection subsidiaire et les demandeurs d’asile tout au long de leur parcours, de leur [**installation**](https://www.convivial.be/category/sinstaller/) à leur [**insertion**](https://www.convivial.be/category/sinserer/) sociale et socioprofessionelle en Belgique. Convivial [**sensibilise**](https://www.convivial.be/category/sensibiliser/) également le grand public à la réalité des Réfugiés et favorise la rencontre entre Belges et Refugiés.
 
