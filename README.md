@@ -10,15 +10,14 @@ Je vais parler pour toutes les personnes qui ont contribué sur ce projet **c’
 
 
 # Links @ Website Convivial 2.0
-1.[Ceci est le site officiel du site convivial](https://www.convivial.be/)
+1. [Ceci est le site officiel du site convivial](https://www.convivial.be/)
 2. [Ceci est la version 2.0 du site convivial](http://convivial-asbl.herokuapp.com/index.php "http://convivial-asbl.herokuapp.com/index.php")
-3.[Ceci est le kanban en mode agile by Mika complét à 74%](https://github.com/mickeymike33/Conviviale-ASBL/projects/1)
-4.[Ceci est un lien pour les logs de nos comptes youtube/gmail /heroku #Skerk](https://we.tl/T7zJLmIFOa)
+3. [Ceci est le kanban en mode agile by Mika complét à 74%](https://github.com/mickeymike33/Conviviale-ASBL/projects/1)
+4. [Ceci est un lien pour les logs de nos comptes youtube/gmail /heroku #Skerk](https://we.tl/T7zJLmIFOa)
 
 
 ## Screenshots
 
-1. [UML de l'équipe #GML](https://contattafiles.s3.us-west-1.amazonaws.com/tnt14094/LXztqaLXIefe6Ls/forms.png)
 ![uml](forms/forms.png)
 
 
