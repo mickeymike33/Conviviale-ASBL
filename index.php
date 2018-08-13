@@ -49,5 +49,12 @@
         info@convivial.be / 02 503 43 46
     </p>
     </div>
+    <script src="upup.min.js"></script>
+    <script>
+        UpUp.start({
+            'content-url': 'offline.php', // show this when the user is offline
+            'assets': ['style.css']
+        });
+</script>
 </body>
 </html>
